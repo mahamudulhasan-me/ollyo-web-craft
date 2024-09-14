@@ -4,7 +4,7 @@ import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 
 const Pricing = () => {
   return (
-    <section className="container mx-auto px-[5%] grid grid-cols-12 py-20 gap-x-8">
+    <section className="container mx-auto px-[5%] grid grid-cols-12 pt-20 gap-x-8">
       <aside className="col-span-4 flex flex-col justify-between pt-8">
         <div className="space-y-8">
           <h1 className="text-6xl font-raleway font-semibold ">Pricing</h1>
@@ -22,7 +22,7 @@ const Pricing = () => {
           </button>
         </div>
       </aside>
-      <aside className="col-span-8 bg-white rounded-lg p-8 space-y-8">
+      <aside className="col-span-8 bg-white rounded-lg             p-8 space-y-8">
         <h2 className="text-2xl font-semibold ml-4">Unlimited Services</h2>
         <p className="ml-4">
           Take a look at some of our recent projects to see how <br />{" "}
@@ -36,7 +36,7 @@ const Pricing = () => {
             </p>
           ))}
         </div>
-        <div className="bg-slate-100 p-8 rounded-md flex items-center justify-between">
+        <div className="bg-slate-100 p-8 rounded-lg flex items-center justify-between">
           <h1 className="text-5xl font-semibold">
             $3,250 <span className="text-slate-500 text-base">/mo</span>
           </h1>
