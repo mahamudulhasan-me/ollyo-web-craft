@@ -1,4 +1,5 @@
 import HeroSection from "./sections/Hero/HeroSection";
+import Portfolio from "./sections/Portfolio/Portfolio";
 import WhatWeDo from "./sections/WhatWeDo/WhatWeDo";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <HeroSection />
       <WhatWeDo />
+      <Portfolio />
     </div>
   );
 }
