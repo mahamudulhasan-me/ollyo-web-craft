@@ -8,11 +8,11 @@ import portfolio3 from "@/app/images/portfolio/portfolio-3.png";
 const Portfolio = () => {
   return (
     <section className="bg-slate-100 h-fit bg-no-repeat bg-center py-20">
-      <div className="w-full z-0 h-72 flex justify-center items-center relative">
+      <div className="w-full z-0 h-[18rem] flex justify-center items-center relative">
         <Image
           src="/images/checkWorkTitleBg.png"
           alt="hero-bg"
-          width={600}
+          width={700}
           height={800}
           className="absolute top-0"
         />
