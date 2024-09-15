@@ -3,8 +3,8 @@ import Image from "next/image";
 import { FaStar } from "react-icons/fa";
 const Reviews = () => {
   return (
-    <div className="bg-slate-100 w-full flex justify-center items-center">
-      <div className="bg-white px-8 py-4 border border-slate-300 rounded-2xl flex items-center gap-x-4">
+    <div className="bg-slate-100 w-full flex justify-center  items-center">
+      <div className="bg-white px-8 py-4 border border-slate-300 rounded-2xl flex items-center flex-wrap gap-x-4">
         <>
           <div className="flex items-center -space-x-2">
             {Array.from({ length: 6 }).map((_, i) => (

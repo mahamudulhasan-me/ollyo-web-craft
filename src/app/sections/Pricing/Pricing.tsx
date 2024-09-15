@@ -4,10 +4,12 @@ import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 
 const Pricing = () => {
   return (
-    <section className="container mx-auto px-[5%] grid grid-cols-12 pt-20 gap-x-8">
+    <section className="container mx-auto px-[5%] md:grid grid-cols-12 pt-20 gap-x-8">
       <aside className="col-span-4 flex flex-col justify-between pt-8">
         <div className="space-y-8">
-          <h1 className="text-6xl font-raleway font-semibold ">Pricing</h1>
+          <h1 className="md:text-6xl text-4xl font-raleway font-semibold ">
+            Pricing
+          </h1>
           <p>
             Take a look at some of our recent projects <br /> to see how
             we&apos;ve helped businesses like <br /> yours succeed online.
@@ -28,7 +30,7 @@ const Pricing = () => {
           Take a look at some of our recent projects to see how <br />{" "}
           we&apos;ve helped businesses like yours succeed online.
         </p>
-        <div className="grid grid-cols-2 ml-4 gap-y-4">
+        <div className="md:grid grid-cols-2 ml-4 gap-y-4">
           {Array.from({ length: 6 }).map((_, i) => (
             <p key={i} className="flex items-center gap-x-2 text-slate-700">
               <IoIosCheckmarkCircleOutline className="text-xl" /> Unlimited

@@ -16,16 +16,17 @@ const Portfolio = () => {
           height={800}
           className="absolute top-0"
         />
-        <div className="absolute top-20 w-[60%] flex justify-around items-center">
+        <div className="absolute top-20 md:w-[60%] flex justify-around items-center">
           <button className="size-20 bg-white rounded-full text-xl text-text flex justify-center items-center">
             <FaLongArrowAltLeft />
           </button>
           <div className="w-full h-full flex flex-col justify-center items-center text-center">
-            <h1 className="text-6xl font-raleway font-semibold">
+            <h1 className="md:text-6xl text-4xl font-raleway font-semibold">
               Check our Work
             </h1>
             <p className="mt-5">
-              Take a look at some of our recent projects to see how we've helped
+              Take a look at some of our recent projects to see how we&apos;ve
+              helped
               <br />
               businesses like yours succeed online.
             </p>
@@ -36,7 +37,7 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <div className="container relative mx-auto grid grid-cols-12 gap-x-8">
+      <div className="container relative mx-auto md:grid grid-cols-12 gap-x-8">
         <figure className="col-span-2 bg-white rounded-r-lg py-8 pr-8  h-[36rem]">
           <Image
             src={portfolio1}

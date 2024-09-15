@@ -14,7 +14,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-[5%] absolute w-full h-full">
         <Header />
         <div className="w-full h-3/5 mt-5 flex flex-col items-center justify-center">
-          <h1 className="text-7xl font-semibold font-raleway text-center space-y-2">
+          <h1 className="md:text-7xl text-4xl font-semibold font-raleway text-center space-y-2">
             Awesome UI Dark <br /> Template for <br /> Webflow Agency
           </h1>
           <button className="bg-text text-white font-semibold px-10 py-3 rounded-md mt-8">

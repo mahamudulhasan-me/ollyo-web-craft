@@ -1,4 +1,6 @@
 import FAQs from "./sections/FAQs/FAQs";
+import Footer from "./sections/Footer/Footer";
+import GetInTouch from "./sections/GetInTouch/GetInTouch";
 import HeroSection from "./sections/Hero/HeroSection";
 import Portfolio from "./sections/Portfolio/Portfolio";
 import Pricing from "./sections/Pricing/Pricing";
@@ -14,6 +16,8 @@ export default function Home() {
       <Reviews />
       <Pricing />
       <FAQs />
+      <GetInTouch />
+      <Footer />
     </div>
   );
 }

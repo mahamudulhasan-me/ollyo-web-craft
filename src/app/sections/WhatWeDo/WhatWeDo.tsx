@@ -8,9 +8,11 @@ import WhatWeDoMiniCard from "./WhatWeDoMiniCard";
 const WhatWeDo = () => {
   return (
     <section className=" bg-gradient-to-b from-slate-50 to-slate-100">
-      <div className="container mx-auto px-[5%] pb-20">
-        <h1 className="text-6xl font-raleway font-semibold ">What We do</h1>
-        <div className="grid grid-cols-4 gap-8 mt-16 grid-rows-2">
+      <div className="container mx-auto px-[5%] pt-10 pb-20">
+        <h1 className="md:text-6xl text-3xl font-raleway font-semibold ">
+          What We do
+        </h1>
+        <div className="md:grid grid-cols-4 gap-8 mt-16 grid-rows-2">
           <WhatWeDoMiniCard icon={<FaCode />} title="Web Design" />
           <WhatWeDoMiniCard icon={<SiAntdesign />} title="UI/UX Design" />
           <WhatWeDoMiniCard icon={<CiMobile3 />} title="Responsive Design" />
@@ -23,7 +25,7 @@ const WhatWeDo = () => {
               <Image src={teamImg} alt="hero-bg" width={800} height={800} />
             </figure>
           </div>
-          <div className="col-span-2 grid grid-cols-2 gap-x-8 rounded-lg bg-white shadow-sm">
+          <div className="col-span-2 md:grid grid-cols-2 gap-x-8 rounded-lg bg-white shadow-sm">
             <WhatWeDoMiniCard icon={<FaWebflow />} title="Webflow" />
             <figure className="bg-primary m-8 flex justify-center items-center text-white text-8xl rounded-lg">
               <FaWebflow />

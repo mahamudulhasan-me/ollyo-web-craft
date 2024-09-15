@@ -15,6 +15,14 @@ const config: Config = {
       fontFamily: {
         raleway: ["Raleway", "sans-serif"],
       },
+      backgroundImage: {
+        "custom-gradient":
+          "linear-gradient(90deg, #9403FD 0%, #FF5733 50%, #00ADFE 100%)",
+        "opacity-gradient":
+          "linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%)",
+        "custom-opacity-gradient":
+          "linear-gradient(180deg,  rgba(0, 173, 254, 0) 0%, rgba(255, 87, 51, 0.6) 50%, rgba(148, 3, 253, .8) 100%)",
+      },
     },
   },
   plugins: [],
